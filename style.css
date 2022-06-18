@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Festive&family=Fira+Sans:ital,wght@0,400;0,500;1,600&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,900&family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Festive&family=Fira+Sans:ital,wght@0,400;0,500;1,600&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,900&family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@400;600&family=Raleway:wght@300;400;500;600;700&family=Rowdies:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+.heading-left{
+    width: 40%;
+    margin-top:15%;
+    margin-left: 100px;
+    padding-left: 120px;
+    float: left; 
+    align-items: center;
+    justify-content: center;
+    
+}
+.heading-left h3{
+    padding-bottom: 20px;
+}
+.heading-name{
+    color:#EC4978;
+    font-weight: 800;
+}
+.heading-paragraph{
+    padding-top: 10px;
+    color: gray;
+    padding-bottom: 30px;
+}
+.button{
+    
+    padding: 10px;
+    background-color: #EC4978;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.heading-right img{
+    width: 600px;
+    margin: 70px auto;
+    padding-left: 30px;
+}
