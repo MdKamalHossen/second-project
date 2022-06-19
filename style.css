@@ -8,6 +8,12 @@
     font-family: 'Lato', sans-serif;
     /* font-family: 'Montserrat', sans-serif; */
 }
+.heading-image{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .heading-left{
     width: 40%;
     margin-top:15%;
@@ -42,4 +48,77 @@
     width: 600px;
     margin: 70px auto;
     padding-left: 30px;
+}
+/* another section  */
+.second-heading-image{
+    height: 700px;
+}
+.second-heading-image{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.second-heading-left{
+    width: 50%;
+    float: left;
+}
+.second-heading-left img{
+margin-top: 3rem;
+width: 50%;
+margin-left: 20%;
+    
+}
+.second-heading-right{
+    
+    padding-top: 16rem;
+   
+}
+/* third section  */
+.last{
+    text-align: center;
+}
+.latest{
+    text-align: center;
+    font-weight: 900;
+    padding-top: 5rem;
+    font-family: sans-serif;
+    padding-bottom: 10rem;
+}
+.first{
+    float: left;
+    padding-right: 5rem;
+    margin-left: 10rem;
+}
+.second{
+    float: left;
+    padding-right: 5rem;
+}
+/* client section  */
+.text-something{
+    padding-top: 10rem;
+    text-align: center;
+}
+.text-something h2{
+    padding-bottom: 5rem;
+}
+.text-something h5{
+    font-family:monospace;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.text-something h6{
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkgrey;
+    line-height: 50px;
+    padding-bottom: 3rem;
+}
+.mail-box{
+    display: inline-block;
+    padding:2rem 2rem;
+    background-color: #EC4978;
+}
+.mail-box p{
+    color: #fff;
 }
